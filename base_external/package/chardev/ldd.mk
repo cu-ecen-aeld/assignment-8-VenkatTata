@@ -1,6 +1,6 @@
 #LDD
 
-CHARDEV_VERSION = ece2703d5bee9780fb7245e4b92749736e911cf1
+CHARDEV_VERSION = 8ef3ebc6b3f4d2aaa370d33dc22408faa9d629f4
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
