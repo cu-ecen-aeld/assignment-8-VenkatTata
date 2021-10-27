@@ -6,6 +6,7 @@ case "$1" in
     /usr/bin/scull_load   
     #Load the fauly module as per usage: /usr/bin/module_load module_name
     /usr/bin/module_load faulty
+    /usr/bin/aesdchar_load
     modprobe hello
     ;;
     stop)
@@ -13,6 +14,7 @@ case "$1" in
     #Unload the fauly module as per usage: /usr/bin/module_unload module_name
     /usr/bin/scull_unload 
     /usr/bin/module_unload faulty
+    /usr/bin/aesdchar_unload
     rmmod hello
     ;;
   *)

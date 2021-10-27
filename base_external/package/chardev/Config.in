@@ -1,0 +1,4 @@
+config BR2_PACKAGE_CHARDEV
+	bool "chardev"
+	help
+	  Character linux Device drivers for assignments 8
